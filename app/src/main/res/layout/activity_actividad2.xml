@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cabecera"
+    android:orientation="vertical"
+    tools:context=".Actividad2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="Encuesta"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        >
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="1- ¿Tienes un habito?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="2- ¿Cambiarias tu nombre?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="3- ¿Has estado solo por mucho tiempo?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="4- ¿Has practicado algun deporte?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="5- ¿Crees que todo pasa por algo?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="6- ¿Tardas en reaccionar a alguna acción?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+        <Switch
+            android:id="@+id/switch7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="7- ¿Has estado despierto por mas de 48 horas?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+        <Switch
+            android:id="@+id/switch8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-black"
+            android:showText="true"
+            android:text="8- ¿He mentido sobre mi edad?"
+            android:textOff="NO"
+            android:textOn="SI"
+            android:textSize="15sp"
+            android:thumb="@drawable/cambio_colorp"
+            android:track="@drawable/cambio_ovalo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/btnRetro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/retroceder" />
+
+
+        <ImageView
+            android:id="@+id/btnAvanza3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/avanzar" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
